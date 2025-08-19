@@ -266,7 +266,7 @@ contract BankTest is Test {
 
         bytes32 digest = keccak256(
             abi.encodePacked(
-                "\x19\x01",
+                "\x19\x01", // EIP-712 prefix
                 tigerToken.DOMAIN_SEPARATOR(),
                 structHash
             )
