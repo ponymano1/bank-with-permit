@@ -1,0 +1,19 @@
+{
+  "name": "bank-with-permit",
+  "version": "1.0.0",
+  "description": "Bank contract with permit functionality",
+  "scripts": {
+    "build": "tsc",
+    "deposit": "ts-node scripts/depositWithPermit.ts",
+    "test:ts": "ts-node scripts/test.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "dotenv": "^16.3.1"
+  }
+} 
